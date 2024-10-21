@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../src/assets/styles/variable';
+@import '../src/assets/styles/custom-classes.scss';
+
+html,
+body {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; /* Ensure no horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling between sections */
+  }
+
+body {
+    margin: 0;
+    letter-spacing: 0.5px !important;
+    background-color: $white;
+    color: $grey-80;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: $ultramarin-himmel-daggry;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.875rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $grey-80;
+}
+
+a {
+    cursor: pointer;
+}
