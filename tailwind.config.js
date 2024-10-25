@@ -44,6 +44,9 @@ module.exports = {
           dark: '#001C38',
           light: '#0E607C'
         }
+      },
+      screens:{
+        'lg-md': '992px'
       }
     },
   },
