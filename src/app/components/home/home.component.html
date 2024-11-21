@@ -38,6 +38,7 @@
 
 <div
     class="p-7 section bg-gradient-to-r from-gradient-dark to-gradient-light h-screen w-full flex flex-col justify-between">
+    <!-- Existing content -->
     <div class="w-full flex justify-between items-center">
         <div>
             <img class="w-28 md:w-36 lg:w-44" src="../../../assets/img/logo5.png" alt="_kooriako5">
@@ -86,6 +87,32 @@
     </div>
 </div>
 
+<!-- <div class="m-0">
+    <hr>
+</div> -->
+<!-- New Section -->
+<div
+    class="p-6 md:p-10 bg-gradient-to-r from-gradient-dark to-gradient-light text-white flex flex-col items-center">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4 sm:mb-6 text-white">Nyheter</h2>
+    <p class="text-white text-sm sm:text-base md:text-lg leading-relaxed text-center max-w-md md:max-w-3xl mb-6 sm:mb-8">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras
+        venenatis euismod malesuada. Fusce vehicula dui eu nibh efficitur, quis pharetra libero suscipit. Donec vel
+        convallis enim.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+        <button
+            class="bg-white text-black text-sm sm:text-base py-2 px-4 sm:px-6 rounded hover:bg-gray-100 transition w-full sm:w-auto">
+            Les mer
+        </button>
+        <button
+            class="bg-white text-black text-sm sm:text-base py-2 px-4 sm:px-6 rounded hover:bg-gray-100 transition w-full sm:w-auto">
+            Kontakt oss
+        </button>
+    </div>
+</div>
+
+
+<!-- Hamburger Icon Template -->
 <ng-template #hamburgerIcon>
     <button (click)="toggleMenu()" class="text-white focus:outline-none">
         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -94,6 +121,7 @@
     </button>
 </ng-template>
 
+<!-- Drop-down Menu Template -->
 <ng-template #dropDownMenu>
     <div
         class="fixed inset-0 bg-gradient-to-r from-gradient-dark to-gradient-light flex flex-col items-center justify-center z-50">
